@@ -1,4 +1,4 @@
-package com.sda.patterns;
+package com.sda.patterns.singleton;
 
 public class Singleton {
 
@@ -8,10 +8,11 @@ public class Singleton {
 
     }
 
-    public static Singleton getInstace() {
+    public synchronized static Singleton getInstace() { //trzeba pamietac o synchronized
         if (instance == null) {
             instance = new Singleton();
             System.out.println("Create instance");
+
         }
         return instance;
     }
