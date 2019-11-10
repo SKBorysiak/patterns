@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="facade" />
         <module name="singleton" />
-        <module name="adapter" />
         <module name="factoryMethod" />
         <module name="patterns" />
+        <module name="adapter" />
+        <module name="iterator" />
+        <module name="facade" />
       </profile>
     </annotationProcessing>
   </component>
