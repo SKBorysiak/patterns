@@ -1,9 +1,6 @@
 package com.sda.patterns;
 
 
-import com.sda.patterns.singleton.Singleton;
-import com.sda.patterns.singleton.SingletonEnum;
-
 public class App {
     static class Task1 implements Runnable {
         @Override

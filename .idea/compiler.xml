@@ -7,6 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="patterns" />
+        <module name="factoryMethod" />
+      </profile>
+      <profile name="Annotation profile for singleton" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="singleton" />
       </profile>
     </annotationProcessing>
   </component>
