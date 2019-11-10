@@ -1,4 +1,4 @@
-package com.sda.patterns;
+package com.sda.singleton;
 
 public enum SingletonEnum {
 

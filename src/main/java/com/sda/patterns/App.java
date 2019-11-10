@@ -1,6 +1,9 @@
 package com.sda.patterns;
 
 
+import com.sda.singleton.Singleton;
+import com.sda.singleton.SingletonEnum;
+
 public class App {
 
 

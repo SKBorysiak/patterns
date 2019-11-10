@@ -15,6 +15,8 @@
   <modules>
     <module>singleton</module>
     <module>factorymethod</module>
+    <module>facade</module>
+    <module>adapter</module>
   </modules>
 
   <properties>
